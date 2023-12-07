@@ -15,7 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="Main.asm">
+    <ClInclude Include="IO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="CalcSum_.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="IntegerMulDiv_.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
